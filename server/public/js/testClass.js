@@ -44,24 +44,11 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(1);
+	module.exports = __webpack_require__(2);
 
 
 /***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _testClass = __webpack_require__(2);
-
-	var _testClass2 = _interopRequireDefault(_testClass);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	document.getElementsByTagName('div')[0].innerHTML = _testClass2.default.name;
-
-/***/ }),
+/* 1 */,
 /* 2 */
 /***/ (function(module, exports) {
 
