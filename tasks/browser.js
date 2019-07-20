@@ -8,5 +8,6 @@ gulp.task('browser',(cb)=>{
   gulp.watch('app/**/*.js',['scripts']);
   gulp.watch('app/**/*.pug',['pages']);
   gulp.watch('app/**/*.scss',['scss']);
+  gulp.watch('app/**/*.less',['less']);
   gulp.watch('app/images/*',['images']);
 });
